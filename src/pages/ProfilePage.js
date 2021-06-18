@@ -4,7 +4,7 @@ import React from "react";
 export default function ProfilePage() {
     return(
         <div className="ProfilePage">
-            <h4>Profiel pagina</h4>
+            <h1>Profiel pagina</h1>
         </div>
 
     );

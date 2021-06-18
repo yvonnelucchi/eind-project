@@ -1,11 +1,31 @@
 import React from "react";
+import { useHistory } from 'react-router-dom';
 
+export default function LoginPage({ toggleAuth}) {
+    const history = useHistory()
 
-export default function LoginPage() {
-    return(
-        <div className="LoginPage">
-            <h4>Login page</h4>
-        </div>
+    function signIn() {
+        toggleAuth(true);
+        history.push('/');
+    }
 
+    return (
+        <section>
+            <div className="LoginPage">
+                <h1>Login page</h1>
+                <button type="button" onClick={signIn}>
+                    Log in
+                </button>
+            </div>
+        </section>
     );
 }
+
+
+
+
+
+
+
+
+
