@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import './App.css';
 import './App.css';
+import './pages/SignUp.css';
 // import posts from './data/posts.json';
 import LoginPage from './pages/LoginPage';
 import HomePage from './pages/HomePage';

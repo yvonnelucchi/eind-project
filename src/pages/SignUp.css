@@ -1,0 +1,35 @@
+
+form {
+    color: whitesmoke;
+    padding-top: 100px;
+}
+
+label {
+    align-items: center;
+    display: flex;
+    height: 10px;
+    border: none;
+    padding: 10px 100px 10px 0;
+}
+
+input[type=text] {
+    max-width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: powderblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+input[type=submit]:hover {
+    background-color: slategrey;
+}
