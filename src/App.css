@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 header {
@@ -18,7 +18,7 @@ footer {
 
 
 .nav-container a {
-  color: whitesmoke;
+  color: black;
   width: auto;
   display: flex;
   justify-content: space-between;
@@ -29,7 +29,6 @@ footer {
 
 li {
   float: left;
-  padding: ;
   margin: 0 0 0 12px;
   list-style-type: none;
 

@@ -8,7 +8,7 @@ import HomePage from './pages/HomePage';
 import ProfilePage from './pages/ProfilePage';
 import  { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import TopMenu from './components/TopMenu';
-import SignUp from "./pages/SignUp";
+import SignUp from './pages/SignUp';
 
 function  PrivateRoute({ children, isAuth, ...rest}) {
 

@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink, useHistory } from "react-router-dom";
-import artOnline from "../assets/logo_small.png";
+import React from 'react';
+import { NavLink, useHistory } from 'react-router-dom';
+import artOnline from '../assets/logo_small.png';
 
 function TopMenu({isAuth, toggleAuth}) {
     const history = useHistory();

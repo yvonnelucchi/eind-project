@@ -34,15 +34,14 @@ export default function SignUp() {
                 {errors.lastName?.type === 'required' && "Achternaam is verplicht"}
                 <br/>
 
-                <label htmlFor="age" id="ageId">Age</label>
-                <input type="text" name="age" id="age"
-                       {...register("age", {required: true, min: 18})}/>
-                {errors.age?.type === 'required' && "Leeftijd is verplicht"}
-                <br/>
+                {/*<label htmlFor="age" id="ageId">Age</label>*/}
+                {/*<input type="text" name="age" id="age"*/}
+                {/*       {...register("age", {required: true, min: 18})}/>*/}
+                {/*{errors.age?.type === 'required' && "Leeftijd is verplicht"}*/}
+                {/*<br/>*/}
 
                 <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions"{...register("termsAndConditions", {required: true})}/>
                 <label htmlFor="terms-and-conditions" id="termsAndConditions">Ik ga akkoord met de voorwaarden</label>
-                <br/>
                 {errors.termsAndConditions?.type === 'required' && "Akkoord is verplicht"}
                 <br/>
 
