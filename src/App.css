@@ -17,32 +17,6 @@ footer {
 }
 
 
-.nav-container a {
-  color: black;
-  width: auto;
-  display: flex;
-  justify-content: space-between;
-  /*align-items: unset;*/
-  height: 60px;
-
-}
-
-li {
-  float: left;
-  margin: 0 0 0 12px;
-  list-style-type: none;
-
-}
-
-
-img {
-  display: flex;
-  flex-direction: row;
-  width: 70px;
-  height: 80px;
-  object-fit: contain;
-  align-content: center;
-}
 
 /*li  {*/
 /*  float: left;*/

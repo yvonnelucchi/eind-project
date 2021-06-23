@@ -1,0 +1,46 @@
+
+.nav-container a {
+    color: black;
+    width: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: unset;
+    height: 60px;
+
+}
+
+li {
+    float: left;
+    margin: 0 0 0 12px;
+    list-style-type: none;
+
+}
+
+
+img {
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 80px;
+    object-fit: contain;
+    align-content: center;
+}
+
+.dropdown {
+    float: right;
+    color: whitesmoke;
+}
+
+.dropbtn {
+    color: #cccccc;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+
+.uitloggen {
+    float: right;
+}
+
+
